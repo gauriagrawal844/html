@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <div>
+        <h1>Travel form for our trip</h1>
+        <form action="form.php">
+            <input type="text" placeholder="Enter your name"><br>
+            <lable for="sectionida">
+                <input type="radio" value="Section a" name="section" id="sectionida">Section A
+            </lable>
+            <lable for="sectionidb">
+                <input type="radio" value="Section b" name="section" id="sectionidb">Section B
+            </lable>
+            <lable for="sectionidc">
+                <input type="radio" value="Section c" name="section" id="sectionidc">Section C
+            </lable><br>
+            <input type="checkbox" name="Want food canteen card" id="foodcanteen">
+            <lable for ="foodcanteen">Want Food Canteen card</lable><br>
+            <!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input  (for all the type of input format)-->
+            <textarea name="explain" id="explain" cols="30" rows="10"placeholder="Explain why you want to join"></textarea><br>
+            
+            <select name="Place" id="Place">Select the place where you want to go
+                <Option value="No-Place">Select the place where you want to go</Option>
+                <Option value="WaterPark">WaterPark</Option>
+                <Option value="Adventure Park">Adventure Park</Option>
+                <Option value="Historic Place">Historic Place</Option>
+                <Option value="Educational Tour">Educational Tour</Option>
+            </select>
+        </form>
+    </div>
+
+</body>
+
+</html>
